@@ -17,6 +17,7 @@ body{
     text-align: center;
     margin: auto;
     font-style: oblique;
+    font-size: 12px;
 }
 
 .content-logo{
@@ -65,8 +66,8 @@ main{
 }
 
 .img-content1 img{
-    width: 200px;
-    height: 60px;
+    width: 100px;
+    height: 30px;
 }
 
 
@@ -75,35 +76,36 @@ main{
 }
 
 .text-content1 h1{
-    margin-top: 40px;
+    margin-top: 5px;
     font-weight: 100;
     text-align: center;   
 }
 
 .text-content1 hr{
-    width: 200px;
+    width: 100px;
     height: 5px;
     margin: auto;
     background: -webkit-linear-gradient(left, #F95700, #000D71);
     background: -moz-linear-gradient(left, #F95700, #000D71);
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .text-content1 p{
-    margin-top: 20px;
+    margin-top: 5px;
     color: black;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: justify;
 }
 
 .button-access {
-    width: 200px;
-    padding: 16px;
+    width: 100px;
+    padding: 5px;
     border: 1px solid #dddddd;
     border-radius: 10px;
     margin: auto;
     margin-top: 40px;
-    text-align: center
+    text-align: center;
+    font-size: 10px;
 }
 
