@@ -6,7 +6,8 @@
 }
 
 body{
-    background: #F95700;
+    background: -webkit-linear-gradient(left,#F95700, #000D71);
+    background: -moz-linear-gradient(left, #F95700, #000D71);
     padding: 20px;      
 }
 
@@ -21,12 +22,10 @@ body{
 }
 
 .content-logo{
-    width: 100px;
+    width: 300px;
     height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid white;
-    margin: auto;
+    margin: 10px auto;
+    display: block;
 }
 
 .content-logo img{
@@ -54,15 +53,40 @@ main{
     border-radius: 10px;
 }
 
-/*Content1*/
+/*Content general*/
+
+.content-general{
+    width: 350px;
+    height: 150px;
+    position: relative;
+    font-size: 15px;
+}
+
+.content-general h1{
+    color: #000D71;
+    font-family:url(fuentes/radikal_bold.ttf);
+}
+/*Content Blockdozer*/
+
+.content-general h1{
+    font color:#000D71;
+    font-size: 15px;
+ 
+}
 
 .content1{
-    width: 100%;  
+    width: 100%;
+    position:absolute;
+    top:50px;
+    bottom: 0;
+    right: 0;
+    left:0px;
+    text-align: left;
 }
 
 .img-content1{
     width: 100%;
-    text-align: center;
+
 }
 
 .img-content1 img{
@@ -70,32 +94,57 @@ main{
     height: 30px;
 }
 
-
-.text-content1{
-    width: 100%;
-}
-
-.text-content1 h1{
-    margin-top: 5px;
-    font-weight: 100;
-    text-align: center;   
-}
-
-.text-content1 hr{
+.boton1 hr{
     width: 100px;
     height: 5px;
-    margin: auto;
     background: -webkit-linear-gradient(left, #F95700, #000D71);
     background: -moz-linear-gradient(left, #F95700, #000D71);
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
+.boton1{
+    width: 100%;
+  
+}
+
+.boton_BCH{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000D71 ;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #F95700;
+}
+.boton_BCH:hover{
+    color:#F95700;
+    border:1px solid #000D71
+}
+
+.boton_BTC{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000D71 ;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #F95700;
+}
+.boton_BTC:hover{
+    color:#F95700;
+    border:1px solid #000D71
+}
+
+
 .text-content1 p{
+   
     margin-top: 5px;
     color: black;
     letter-spacing: 1px;
     font-size: 10px;
-    text-align: justify;
 }
 
 .button-access {
@@ -103,9 +152,79 @@ main{
     padding: 5px;
     border: 1px solid #dddddd;
     border-radius: 10px;
-    margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
     font-size: 10px;
 }
 
+/*Content Blockdrome*/
+
+.content2{
+    width: 100%;
+    position:absolute;
+    top:50px;
+    bottom:0;
+    right: 0;
+    left:150px;
+}
+.img-content2{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+}
+
+.img-content2 img{
+    
+    width: 100px;
+    height: 30px;
+}
+
+
+.boton2{
+    width: 100%;
+}
+
+
+.boton2 hr{
+    width: 100px;
+    height: 5px;
+    background: -webkit-linear-gradient(left, #F95700, #000D71);
+    background: -moz-linear-gradient(left, #F95700, #000D71);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+ }
+
+.boton_ETH{
+    text-decoration: none;
+    padding: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    color:#000D71 ;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #F95700;
+}
+.boton_ETH:hover{
+    color:#F95700;
+    border:1px solid #000D71
+}
+
+
+.button-access2 {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*Twitter*/
+.content-twitter h2{
+    font-size: 10px;
+    margin-top: 70px;
+    text-align: center;   
+}
