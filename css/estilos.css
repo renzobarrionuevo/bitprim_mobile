@@ -24,10 +24,11 @@ body{
 }
 
 .content-logo{
-    width: 300px;
+    width: 260px;
     height: 100px;
     margin: 10px auto;
     display: block;
+    margin-left: auto;
 }
 
 .content-logo img{
@@ -52,8 +53,8 @@ main{
     max-width: 350px;
     background: white;
     padding-top: 20px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 20px;
     margin: auto;
     margin-top: 20px;
@@ -61,8 +62,8 @@ main{
 }
 
 .content-general{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     position: relative;
     font-size: 15px;
 }
@@ -86,7 +87,7 @@ main{
     position:absolute;
     top:35px;
     bottom: 0;
-    right: 0;
+    right: 0px;
     left:0px;
     text-align: center;
 }
@@ -96,7 +97,7 @@ main{
 }
 
 .img-content1 img{
-    margin-right: 200px;
+    margin-right: 100px;
     width: 100px;
     height: 30px;
 }
@@ -171,8 +172,8 @@ main{
     position:absolute;
     top:35px;
     bottom:0;
-    right: 0;
-    left:140px;
+    right: 0px;
+    left:145px;
     text-align: center;
 }
 .img-content2{
@@ -183,7 +184,7 @@ main{
 }
 
 .img-content2 img{
-    margin-right: 100px;
+    margin-right: 0px;
     width: 100px;
     height: 30px;
 }
